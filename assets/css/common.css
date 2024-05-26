@@ -1,0 +1,80 @@
+.blind {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    margin:-1px;
+}
+
+.wrapper {
+    min-width: 1300px;
+}
+
+.common-inner{
+    width: 1152px;
+    margin: 0 auto;
+}
+
+
+#skipNav{
+    position: absolute;
+    width: 100%;
+}
+
+#skipNav a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:0;
+    transform: translateY(-100%);
+    width: 100%;
+    height: 50px;
+    background: #000;
+    color: #fff;
+}
+
+#skipNav a:focus,
+#skipNav a:active {
+    transform: translateY(0);
+}
+
+/* sp1 */
+.header .logo a , .header .search-area .btn-submit , .sc-board .link-more , .sc-news .link-all, .sc-banner .control-area button, .footer .inquiry-area{
+    background-image: url(https://www.seoul.go.kr/res_newseoul/images/icon_set_common.png);
+    background-repeat: no-repeat;
+}
+
+/* sp2 */
+.sc-visual .group-nav .btn-nav::before {
+    background-image: url(https://www.seoul.go.kr/res_newseoul/images/main/icon_main_2019.png);
+    background-repeat: no-repeat;
+}
+
+
+/* sp3 */
+.sc-service .group-header .sub-area a{
+        background-image: url(https://www.seoul.go.kr/res_newseoul/images/main/logo_event.png);
+}
+
+/* sp4 */
+.sc-service .service-item a:before{
+    background-image: url(https://www.seoul.go.kr/res_newseoul/images/main/icon_set_service_202205.png);
+}
+
+/* sp5 */
+.group-sns .sns-item a {
+    background-image: url(https://www.seoul.go.kr/res_newseoul/images/main/ico_sns_list_202205.png?ver=20210401);
+}
+
+/* sp6 */
+.footer .sns-item a {
+    background-image: url(https://www.seoul.go.kr/res_newseoul/images/main/icon_set_sns.png);
+}
+
+/* sp7*/
+.sc-visual .control-area button {
+    background-image: url(https://www.seoul.go.kr/res_newseoul/images/main/icon_set_common_2019.png);
+    background-repeat: no-repeat;
+}
